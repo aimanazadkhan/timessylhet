@@ -1,0 +1,954 @@
+[09-Feb-2024 13:02:54 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/composer/ClassLoader.php(576): include('/home/elitedesi...')
+#2 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-Feb-2024 14:01:35 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/composer/ClassLoader.php(576): include('/home/elitedesi...')
+#2 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-Feb-2024 14:02:35 UTC] PHP Fatal error:  Uncaught Error: Interface 'JsonSerializable' not found in /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Enumerable.php:11
+Stack trace:
+#0 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/composer/ClassLoader.php(576): include()
+#1 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/elitedesi...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#3 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): spl_autoload_call('Illuminate\\Supp...')
+#4 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/composer/ClassLoader.php(576): include('/home/elitedesi...')
+#5 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/elitedesi...')
+#6 [internal function]: Composer\Autoload in /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Enumerable.php on line 11
+[09-Feb-2024 14:59:32 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/composer/ClassLoader.php(576): include('/home/elitedesi...')
+#2 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-Feb-2024 15:08:24 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/composer/ClassLoader.php(576): include('/home/elitedesi...')
+#2 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-Feb-2024 15:08:25 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/composer/ClassLoader.php(576): include('/home/elitedesi...')
+#2 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/elitedesignbd/public_html/news2.elitedesign.com.bd/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/elitedesignbd/public_html/news2.elitedesign.com.bd/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 02:56:49 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 03:53:11 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 04:48:05 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 05:06:02 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 05:40:05 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 05:41:48 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 06:35:02 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:09:18 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:09:22 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:09:27 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:09:50 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:09:51 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:09:55 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:09:56 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:09:56 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:09:56 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:09:58 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:10:01 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:24:08 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:24:25 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:28:05 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:38:32 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:41:18 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:41:33 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:42:50 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:42:54 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:42:57 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 07:43:05 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 08:00:24 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 08:00:25 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 08:10:31 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 08:12:02 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 08:12:03 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 08:20:23 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 08:58:35 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 09:12:41 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 10:04:24 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 10:35:35 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 10:49:09 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 10:49:14 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 10:49:16 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 10:55:29 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 11:00:10 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 11:11:28 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 11:46:19 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 12:37:36 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 13:28:13 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 14:18:12 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 15:08:37 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 15:46:51 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 15:57:58 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 15:59:23 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 16:09:56 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 16:10:07 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 16:10:09 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 16:10:10 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 16:11:52 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[09-May-2024 16:12:03 UTC] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(576): include('/home/timessylh...')
+#2 /home/timessylhet/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#3 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/timessylhet/public_html/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/timessylhet/public_html/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
